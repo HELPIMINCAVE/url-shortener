@@ -61,9 +61,9 @@ curl -s -X POST "[https://www.example.com/some/long/url](https://www.example.com
 ```
 
 #### 2. Retrieve URL Statistics
-Endpoint: GET /shorten/<shortcode>
+**Endpoint**: ```GET /shorten/<shortcode>```
 
-Description: Fetches full metadata record and increments the accessCount.
+**Description**: Fetches full metadata record and increments the accessCount.
 
 Example Request:
 ```bash
@@ -71,10 +71,12 @@ curl -s [http://127.0.0.1:8080/shorten/shortcode](http://127.0.0.1:8080/shorten/
 ```
 
 #### Example Response (200 OK):
+```json
 {
   "accessCount": 1,
   "url": "[https://www.example.com/some/long/url](https://www.example.com/some/long/url)"
 }
+```
 
 #### 3. Live Web Browser Redirection
 
