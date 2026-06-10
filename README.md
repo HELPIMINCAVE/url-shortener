@@ -54,7 +54,7 @@ curl -s -X POST "[https://www.example.com/some/long/url](https://www.example.com
   "accessCount": 0,
   "createdAt": "2026-06-08T12:55:59.875009+00:00",
   "id": "5a783087ba9a4bf3937b98a41be06941",
-  "shortCode": "IBYFgR",
+  "shortCode": "YOUR_SHORTCODE_HERE",
   "updatedAt": "2026-06-08T12:55:59.875009+00:00",
   "url": "[https://www.example.com/some/long/url](https://www.example.com/some/long/url)"
 }
@@ -65,7 +65,7 @@ curl -s -X POST "[https://www.example.com/some/long/url](https://www.example.com
 
 **Description**: Fetches full metadata record and increments the accessCount.
 
-Example Request:
+Example Request:g
 ```bash
 curl -s [http://127.0.0.1:8080/shorten/shortcode](http://127.0.0.1:8080/shorten/shortcode)
 ```
@@ -86,7 +86,7 @@ curl -s [http://127.0.0.1:8080/shorten/shortcode](http://127.0.0.1:8080/shorten/
 
 ##### Usage:
 ```plaintext
-[http://127.0.0.1:8080/IBYFgR](http://127.0.0.1:8080/shortcode)
+[http://127.0.0.1:8080/shortcode](http://127.0.0.1:8080/shortcode)
 ```
 *(Triggers an HTTP 302 Redirect to your destination url).*
 
