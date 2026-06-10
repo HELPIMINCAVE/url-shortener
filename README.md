@@ -31,6 +31,7 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
 ### 3. Start the Flask Server
 ```bash
+pip install -r requirements.txt
 python3 app.py # or python app.py if you're on Windows
 ```
 *The server will boot up in debug mode on http://127.0.0.1:8080.*
