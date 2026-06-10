@@ -103,7 +103,4 @@ curl -X DELETE [http://127.0.0.1:8080/shorten/shortcode](http://127.0.0.1:8080/s
 
 ---
 
-### Pro-Tip for Git:
-Since you just learned how to handle those single quotes for your commit message, you can save this file and commit it beautifully by running:
-
-###### The project is from https://roadmap.sh/projects/url-shortening-service
+###### This project is from https://roadmap.sh/projects/url-shortening-service
