@@ -5,8 +5,6 @@ app = Flask(__name__)
 
 @app.route("/shorten", methods=["POST"])
 def api_shorten_url():
-    print("--- INSIDE THE FUNCTION ---") # <-- Add this line
-    
     data = request.get_json() or {}
     long_url = data.get("url")
     
